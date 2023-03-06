@@ -1,6 +1,103 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: #F66000;
+}
+
+body {
+  background-color: #f66000;
+  color: white;
+}
+
+.principal {
+  margin-left: 3em;
+}
+
+header {
+  font-size: 2rem;
+  width: 50%;
+  text-align: center;
+  position: absolute;
+  top: 2rem;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 60%;
+  position: absolute;
+  top: 18rem;
+}
+
+main h2 {
+  margin-left: 5.5rem;
+  position: absolute;
+  top: 15rem;
+}
+
+.frutasImg {
+  width: 20vh;
+  margin-left: 3rem;
+}
+
+.containerCart {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 8em;
+}
+
+.containerSquare {
+  width: 20vw;
+  height: 60vh;
+  background-color: #ffffffc4;
+  border-radius: 4em;
+  bottom: 9em;
+  position: absolute;
+  top: 33vh;
+  left: 53rem;
+}
+
+.cartSquare {
+  background-color: #a3a3a370;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 15vw;
+  height: 30vh;
+  border-radius: 3em;
+  position: relative;
+  top: 3em;
+  left: 2em;
+}
+
+.cartIcon {
+  left: 4em;
+  width: 7.5vw;
+}
+
+.cartSquare p {
+  padding: 1em;
+  text-align: center;
+  font-size: 1em;
+}
+
+.btn-cart {
+  background-color: #a3a3a370;
+  display: flex;
+  justify-content: space-around;
+  width: 11vw;
+  height: 7vh;
+  border-radius: 2em;
+  position: relative;
+  left: 4em;
+  top: 6em;
+}
+
+.plus-circle,
+.minus-circle {
+  margin-top: 0.6em;
+  width: 2vw;
+  height: 4vh;
 }
